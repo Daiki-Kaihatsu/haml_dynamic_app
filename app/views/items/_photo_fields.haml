@@ -1,0 +1,9 @@
+.nested-fields
+  #cover_image.field
+    = f.label :title
+    %br
+    = f.text_field :title
+    = f.label :image, class: 'image_label'
+    = f.file_field :image,id:"user_img"
+    = image_tag f.image, id: :img_prev
+

@@ -1,0 +1,12 @@
+
+%p
+  %strong Name:
+  = @item.name
+%p
+  %strong Price:
+  = @item.price
+%ul
+  - @item.photos.each do |photo|
+    %li
+      = photo.title
+      = image_tag photo.image.url

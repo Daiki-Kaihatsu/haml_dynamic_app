@@ -66,4 +66,4 @@ gem 'pry-rails'
 gem 'haml-rails'
 gem 'erb2haml'
 gem "jquery-rails"
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
